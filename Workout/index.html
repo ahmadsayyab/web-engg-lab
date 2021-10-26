@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-white fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+         <i class="fas fa-dumbbell fa-2x align-middle"></i> 
+         <div class="d-inline align-middle">Fitness Freak</div> 
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase Slider -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide carousel-lg" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li  data-target="#myCarousel" data-slide-to="1"></li>
+        <li  data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption text-middle mb-5">
+              <h1 class="display-3"><cite>—Bruce Lee</cite></h1>
+              <p class="lead">‘The successful warrior is the average man, with laser-like focus.’</p>
+              <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption text-left mb-5">
+              <h1 class="display-3"><cite>—Pablo Picasso</cite></h1>
+              <p class="lead">‘Action is the foundational key to all success.’</p>
+              <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption text-right mb-5">
+              <h1 class="display-3"><cite>—Jay Cutler</cite></h1>
+              <p class="lead">‘What hurts today makes you stronger tomorrow.’</p>
+              <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- Icons -->
+  <section id="Icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 mb-4 text-center">
+          <i class="fas fa-trophy fa-3x mb-2"></i>
+          <h3>500+ Trophies</h3>
+          <p>Our Organization has won more than 500 trophies in the last 15 Years</p>
+        </div>
+        <div class="col-sm-4 mb-4 text-center">
+          <i class="fas fa-dumbbell fa-3x mb-2"></i>
+          <h3>Best Trainers</h3>
+          <p>Our Organization has got the Best trainers for you all over the world</p>
+        </div>
+        <div class="col-sm-4 mb-4 text-center">
+          <i class="fas fa-shield-alt fa-3x mb-2"></i>
+          <h3>Highly Secure</h3>
+          <p>Our Organization is highly Securable. Your Privacy is Highly Secured and trusted</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Home Heading -->
+  <div id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5 text-center">
+            <h1>Are You Ready to Join us</h1>
+            <p class="d-none-d md-block">Here is the Golden Opportunity for You to make Yourself Fitter and
+              Smarter So Avail It..
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Buttons With Modals -->
+  <div id="home-Buttons" class="py-5">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h3>Things to do daily</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 text-center" data-toggle="modal" data-target="#Pushups">
+          <button class="btn btn-outline-danger btn-lg btn-block">
+            Pushups
+          </button>
+        </div>
+        <div class="col-sm-3 text-center" data-toggle="modal" data-target="#Pullups">
+          <button class="btn btn-outline-danger btn-lg btn-block">
+            Pullups
+          </button>
+        </div>
+        <div class="col-sm-3 text-center" data-toggle="modal" data-target="#Running">
+          <button class="btn btn-outline-danger btn-lg btn-block">
+            Running
+          </button>
+        </div>
+        <div class="col-sm-3 text-center" data-toggle="modal" data-target="#Diet">
+          <button class="btn btn-outline-danger btn-lg btn-block">
+            Diet
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trainers -->
+  <section id="trainers" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="mb-5">
+              Meet Our Coaches
+            </h1>
+            <p class="lead">Our Coaches will help you achieve your goals and becomae a fit person ever!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="./img/Susan.jpg" alt="" class="img-fluid rounded-circle w-50 h-50 mb-3">
+              <h3>Susan Smith</h3>
+              <h5 class="text-muted">Fitness Trainer</h5>
+              <p>Susan is a Fitness trainer with a lot of experience in this field since working
+                with a lot of People.
+              </p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.twiter.com">
+                  <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.instagram.com">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="./img/Robinson.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>John Robinson</h3>
+              <h5 class="text-muted">Fitness Trainer</h5>
+              <p>John is a Fitness trainer with a lot of experience in this field since working
+                with a lot of People.
+              </p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.twiter.com">
+                  <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.instagram.com">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="./img/Sarah.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Sarah Wlliams</h3>
+              <h5 class="text-muted">Fitness Trainer</h5>
+              <p>
+                Sarah is a Fitness trainer with a lot of experience in this field since working
+                with a lot of People.
+              </p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.twiter.com">
+                  <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.instagram.com">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="./img/Luke.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3>Luke White</h3>
+              <h5 class="text-muted">Fitness Trainer</h5>
+              <p>
+                Luke is a Fitness trainer with a lot of experience in this field since working
+                with a lot of People.
+              </p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.twiter.com">
+                  <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+
+                <div class="p-4">
+                  <a href="https://www.instagram.com">
+                  <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- FOOTER -->
+ <footer id="main-footer" class="text-center p-4">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p>Copyright &copy;
+          <span id="year"></span> Fitness Freak</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Modals -->
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signUpModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Sign Up Now</h5>
+          <button class="close" data-dismiss="modal">
+            <span class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" placeholder="Full Name" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" placeholder="Username" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" placeholder="Email Address" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Password">Password</label>
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger btn-block text-white" data-dismiss="modal">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pushup Modal -->
+  <div class="modal fade" id="Pushups">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Pushups</h5>
+          <button class="close" data-dismiss="modal">
+            <span class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <h4 class="bold">Getting Started</h4>
+              Get on the floor on all fours, positioning your hands slightly wider than your shoulders. Don't lock out the elbows; keep them slightly bent. Extend your legs back so you are balanced on your hands and toes, your feet hip-width apart.
+              <hr>
+              <h4 class="bold">Steps</h4>
+              1. Contract your abs and tighten your core by pulling your belly button toward your spine <br> 
+              2. Inhale as you slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle. <br>
+              3. Exhale while contracting your chest muscles and pushing back up through your hands, returning to the start position. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pullups Modal -->
+  <div class="modal fade" id="Pullups">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Pullups</h5>
+          <button class="close" data-dismiss="modal">
+            <span class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <h4 class="bold">Getting Started</h4>
+              Pull ups can be an excellent way to build upper body strength and work your core. However, it takes time to build up to pull ups. If you want to learn pull ups, start with basic beginner's moves. Eventually, transition into regular pull ups. Make sure to pay attention to your body and not push yourself too hard.
+              <hr>
+              <h4 class="bold">Steps</h4>
+              1. Start with your hands on the bar approximately shoulder-width apart with your palms facing forward. <br>
+
+              2. With arms extended above you, stick your chest out and curve your back slightly. That is your starting position. <br>
+              
+              3. Pull yourself up towards the bar using your back until the bar is at chest level while breathing out. <br>
+              
+              4. Slowly lower yourself to the starting position while breathing in. That is one rep.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Running Modal -->
+  <div class="modal fade" id="Running">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Running</h5>
+          <button class="close" data-dismiss="modal">
+            <span class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4 class="bold">Benefits of Running</h4>
+          <p>
+            Regular running or jogging offers many health benefits. Running can: <br>
+
+            1. help to build strong bones, as it is a weight bearing exercise <br>
+            2. strengthen muscles <br>
+            3. improve cardiovascular fitness <br>
+            4. burn plenty of kilojoules <br>
+            5. help maintain a healthy weight. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Diet -->
+  <div class="modal fade" id="Diet">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Diet</h5>
+          <button class="close" data-dismiss="modal">
+            <span class="text-white">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4 class="bold">Getting Started</h4>
+          <p>When it comes to nutrition, things can become overly complicated. However, one thing that is abundantly clear is that nutrition has a huge impact on the progress that is made in the gym. This article will highlight a number of considerations that must be made and applied in order to bring about substantial changes. In addition, it will also serve as a resource and highlight the nutrient rich foods that one should incorporate in their daily diet routine.</p>
+          <hr>
+          <h4 class="bold">Foods that you Eat must Contains:</h4>
+          <p>
+           1. Carbohydrates <br>
+           2. Proteins <br>
+           3. Fats <br>
+           4. Pre Work out Foods must contain the above three. <br>
+           5. Post Work out Foods should also have the above items.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  
+
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  border-bottom: 3px solid #008ed6;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-link.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url(../img/Slider-1.jpg);
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url(../img/Slider-2.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/Slider-3.jpg);
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/Slider-3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#trainers img {
+  margin-top: -50px;
+}
+
+#trainers .card:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+#trainers .fab {
+  color: #fff;
+}
+
+#main-footer {
+  background: black;
+  color: #fff;
+}
+
+#page-header {
+  height: 250px;
+  background: url(../img/Slider-1.jpg);
+  background-position: 0 -180px;
+  /* background-attachment: fixed; */
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 75px;
+}
+
+.about-img {
+  margin-top: -50px;
+}
